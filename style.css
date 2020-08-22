@@ -4,16 +4,13 @@ margin: 40px;
 }
 
 #why {
-  margin-top: 180px;
+  margin-top: 190px;
   font-size: 50px;
   text-align: right;
-  margin-right: 40px;
 }
 
 #para{
   text-align: right;
-  margin-right: 40px;
-
 } 
 
 .middle-div {
@@ -23,12 +20,12 @@ margin: 40px;
 #gallery-title {
 font-size: 40px;
 padding-top: 30px;
-padding-left:30px;
+padding-right:10px;
 text-align: right;
 }
 
 #gallery {
-  margin-left: 50px;
+  margin-left: px;
 }
 .img-responsive {
   width: 320px;
