@@ -1,11 +1,32 @@
-#image  {
- width: 600px;
-margin: 40px;
+.navbar {
+  width: 100%;
 }
 
+.dropdown-header {
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.list-group-item {
+  text-decoration:none;
+  color: #000;
+}
+
+.form-control {
+  margin-right: 5px;
+}
+#buddha-image  {
+ width: 100%;
+ margin-top: 20px;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
 #why {
-  margin-top: 190px;
-  font-size: 50px;
+  margin-top: 5rem;
+  font-size: 2rem;
   text-align: right;
 }
 
@@ -14,21 +35,18 @@ margin: 40px;
 } 
 
 .middle-div {
-  margin-left: 40px;
+  margin-bottom: 15px;
 }
 
 #gallery-title {
-font-size: 40px;
-padding-top: 30px;
-padding-right:10px;
+font-size: 38px;
+padding-top:20px;
+padding-right: 30px;
 text-align: right;
 }
 
-#gallery {
-  margin-left: px;
-}
 .img-responsive {
-  width: 320px;
+  width: 100%;
   margin: 20px;
 }
 
@@ -40,7 +58,17 @@ text-align: right;
     margin: 5px;
 }
 
-#img-id {
-  width: 250px;
-  padding: 10px;
+#testimonal-img1 {
+  width: 100%;
+  padding: 20px;  
+}
+#testimonal-image2{
+  width: 60%;
+  height: 50%;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#contact-card {
+  margin: 30px 30px;
 }
