@@ -1,229 +1,265 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Siddhartha (SITS)</title>
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
- <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
+
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-white" id="main-nav">
-      <a class="navbar-brand" href="#">SIDDHARTHA</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">Siddhartha</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#siteNav"
+        aria-controls="siteNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="navbar-collapse collapse" id="navbarsExample05" style="">
-          <ul class="navbar-nav mr-auto list-group">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Departments</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown05">
-                  <div class="dropdown header" href="#">UG</div>
-                  <a class="list-group-item" href="#">Computer Science and Enginnering</a>
-                  <a class="list-group-item" href="#">Electrical and Electronics Enginnering</a>
-                  <a class="list-group-item" href="#">Electerical and communication Enginnering</a>
-                  <a class="list-group-item" href="#">Mechanical Engineering</a>
-                  <a class="list-group-item" href="#">Civil Engineering</a>
-                  <div class="dropdown header" href="#">PG</div>
-                  <a class="list-group-item" href="#">MBA</a>
-              </div>
-            </li>
+      <div class="navbar-collapse collapse" id="siteNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
 
-            
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown">
-              Campus Life
-            </a>
-            <div class="dropdown-menu">
-              <a class="list-group-item" href="#">Library</a>
-              <a class="list-group-item" href="#">Sports</a>
-              <a class="list-group-item" href="#">Canteen</a>
-              <a class="list-group-item" href="#">Hostel</a>
-              <a class="list-group-item" href="#">Internet</a>
-              <a class="list-group-item" href="#">Transport</a>
+            <a class="nav-link dropdown-toggle" href="#" id="departments" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">Departments</a>
+            <div class="dropdown-menu" aria-labelledby="departments">
+              <h6 class="dropdown-header">UG</h6>
+              <a class="dropdown-item" href="#">Computer Science and Enginnering</a>
+              <a class="dropdown-item" href="#">Electrical and Electronics Enginnering</a>
+              <a class="dropdown-item" href="#">Electerical and communication Enginnering</a>
+              <a class="dropdown-item" href="#">Mechanical Engineering</a>
+              <a class="dropdown-item" href="#">Civil Engineering</a>
+              <div class="dropdown-divider"></div>
+              <h6 class="dropdown-header" href="#">PG</h6>
+              <a class="dropdown-item" href="#">MBA</a>
             </div>
           </li>
 
 
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown05" role="button" data-toggle="dropdown" aria-haspopup="true"
-                  aria-expanded="false">Placements</a>
-                  <div class="dropdown-menu">
-                  <a href="#" class="list-group-item">Placement Cell</a>
-                  <a href="#" class="list-group-item">Testimonals</a>
-                </div>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="campus" data-toggle="dropdown">
+              Campus Life
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Library</a>
+              <a class="dropdown-item" href="#">Sports</a>
+              <a class="dropdown-item" href="#">Canteen</a>
+              <a class="dropdown-item" href="#">Hostel</a>
+              <a class="dropdown-item" href="#">Internet</a>
+              <a class="dropdown-item" href="#">Transport</a>
+            </div>
+          </li>
 
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown">
-                    About Us
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="list-group-item" href="#">Vision and Mission</a>
-                    <a class="list-group-item" href="#">Certifications</a>
-                    <a class="list-group-item" href="#">Gallery</a>
-                    <a class="list-group-item" href="#">Infrastructure</a>
-                    <a class="list-group-item" href="#">Team</a>
-                  </div>
-                </li>
-                </ul>
-                
-                <form class="form-inline my-2 my-md-0">
-                  <input class="form-control" type="text" placeholder="Search">
-                  <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="placements" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Placements</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">Placement Cell</a>
+              <a href="#" class="dropdown-item">Testimonals</a>
+            </div>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="about" data-toggle="dropdown">
+              About Us
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Vision and Mission</a>
+              <a class="dropdown-item" href="#">Certifications</a>
+              <a class="dropdown-item" href="#">Gallery</a>
+              <a class="dropdown-item" href="#">Infrastructure</a>
+              <a class="dropdown-item" href="#">Team</a>
+            </div>
+          </li>
+        </ul>
+
+        <form class="form-inline my-2 my-md-0">
+          <input class="form-control mr-2" type="text" placeholder="Search">
+          <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
       </div>
     </nav>
-  <div class="container">
-    <div class="container mb-5">
-    <div class="row">
-      <div class="col-lg-6 col-sm-12">
-        <img id="buddha-image" src="http://siddhartha.co.in/wp-content/uploads/2019/06/budda.jpg" alt="image">
-      </div>
-      <div class="col-lg-6 col-sm-12">
-        <h1 id="why">
-          Why Join <br> Siddhartha&#63;
-        </h1>
-        <p id="para">Siddhartha is equipped and geared up to take on the responsibility of providing exceptional quality technical education, assimilating the latest developments in an ambience committed to achieve academic excellence. With exceptional performance we have been getting close to 100% admissions right from the Inception of the college.
-        </p>
-    </div>
-  </div>
-</div>
 
-  <div class="container">
-    <div class="middle-div"><h2>News and Feed</h2></div>
-  </div>
-  <div class="container mb-3">
-    <div class="row justify-content-center"> 
-      
-      <div class="col-sm-3">
-     <div class="card" style="width:13rem;margin-bottom: 20px; ">
-      <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-12.jpg" alt="Card image">
-      <div class="card-body">
-        <h4 class="card-title"></h4>
-        <p class="card-text" style="font-size:large; margin-bottom: 10px;">Webinar Topic - Energy Audit & Its Importance</p>
-       </div>
-      </div>
-    </div>
-  
-    <div class="col-sm-3">
-      <div class="card" style="width:13rem; margin-bottom: 20px;">
-        <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-11.jpg" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title"></h4>
-          <p class="card-text" style="font-size:large; margin-bottom: 10px;;">Webinar Topic - IOT Applications for Engineers</p>
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12 mb-4">
+          <img id="buddha-image" src="http://siddhartha.co.in/wp-content/uploads/2019/06/budda.jpg" alt="image"
+            class="img-fluid">
         </div>
-      </div>
-    </div>
-
-    <div class="col-sm-3">
-      <div class="card" style="width:13rem; margin-bottom: 20px;">
-        <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-10.jpg" alt="Card image">
-        <div class="card-body">
-          <h4 class="card-title"></h4>
-          <p class="card-text">Webinar Topic - Permanent magnet synchronous motor and its control.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container" id="gallery">
-  <div class="row justify-content-center" style="margin-bottom: 20px;">
-    <div class="col-md-3">
-      <h3 class= "img-responsive" id="gallery-title">Photo &amp; Video<br>Gallery</h3>
-    </div>
-    <div class="col-md-3">
-      <a href="http://siddhartha.co.in/international-yoga-day/"><img src="http://siddhartha.co.in/wp-content/uploads/2019/06/1AA.jpg" class="img-responsive"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="http://siddhartha.co.in/annual-day-2k19/"><img src="http://siddhartha.co.in/wp-content/uploads/2019/05/11.jpg" class="img-responsive"></a>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-md-3">
-      <a href="http://siddhartha.co.in/centre-of-human-excellence/"><img src="http://siddhartha.co.in/wp-content/uploads/2019/05/che8.jpg" class="img-responsive"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="http://siddhartha.co.in/icraet-2019/"><img src="http://siddhartha.co.in/wp-content/uploads/2019/06/int3.jpg" class="img-responsive"></a>
-    </div>
-    <div class="col-md-3">
-      <a href="http://siddhartha.co.in/tech-fest-2019/"><img src="http://siddhartha.co.in/wp-content/uploads/2019/05/1-1.jpg" class="img-responsive"></a>
-    </div>
-  </div>
-</div>
-
-<div class="container mt-4">
-  <h3>Student Testimonals</h3>
-  <div class="row">
-    <div class="col-lg-4 col-sm-8">
-    <div class="card" style="margin-bottom: 20px;">
-      <img class="card-image-top" id= "testimonal-img1" src="http://siddhartha.co.in/wp-content/uploads/2019/09/Mr.-A.-Sandeep.jpg" alt="img"> <br>
-      <p style="margin: 10px; padding: 10px;"> <strong style="padding-bottom :30px;"> Mr. A. Sandeep - IV-MECH </strong> <br>
-      The biggest thing for every Engineering student is to get an opportunity <br> to start their career with a reputed organization and a good package.<br>I was lucky to get placed with.
-       <strong>“S.Fortunes”</strong>
-    </p>
-  </div>
-</div>
-
-   <div class="col-lg-4 col-sm-8">
-     <div class="card">
-       <img class="card-image-top mx-auto d-block" src="http://siddhartha.co.in/wp-content/uploads/2019/09/shivani.jpg" id="testimonal-image2"> <br>
-       <p style="margin: 10px; padding: 10px;">
-       <strong style="padding-bottom :30px;">  Ms. Shivani - IV-CIVIL</strong> <br>
-        I am very thankful to the faculties of MCA Departments, as they are very much supportive, helpful and the Placement 
-        Cell which is also doing a great job by arranging excellent placements of MNCs.<br>
-        <strong>Placed in GENPACT</strong>
-       </p>
-
-       </div>
-    </div>
-</div>
-</div>
-
-<div class="container mt-5">
-  <div class="row justify-content-center">
-       <div class="col-lg-6 col-sm-12">
-        <div class="card">
-          <div class="card-text text-center" id="contact-card">
-            <h4 style="margin-bottom: 14px;">
-              Contact Info
-            </h4>
-        <p> <img class="img" src="https://image.flaticon.com/icons/svg/566/566030.svg" alt=""> 040-29706523 / 24, 9908535188 <br>
-            <img class="img" src="https://image.flaticon.com/icons/svg/565/565328.svg" alt=""> Mail: principal@siddhartha.co.in<br>
-            <img class="img" src="https://image.flaticon.com/icons/svg/565/565586.svg" alt="">Narapally, Korremula Road,<br>
-             Ghatkesar Mandal Medchal <br> Malkajgiri Dist, Hyderabad,
-             Telangana 501301
+        <div class="col-md-6 col-sm-12 mb-4">
+          <div class="text-right">
+            <h1 class="mt-5">
+              Why Join <br> Siddhartha&#63;
+            </h1>
+            <p>Siddhartha is equipped and geared up to take on the responsibility of providing exceptional
+              quality technical education, assimilating the latest developments in an ambience committed to achieve
+              academic excellence. With exceptional performance we have been getting close to 100% admissions right from
+              the Inception of the college.
             </p>
-            <img class="social" src="https://image.flaticon.com/icons/svg/1051/1051309.svg" alt="">
-            <img class="social" src="https://image.flaticon.com/icons/svg/733/733635.svg" alt="">
-            <img class="social" src="https://image.flaticon.com/icons/svg/1384/1384028.svg" alt="">
-            <img class="social" src="https://image.flaticon.com/icons/svg/1077/1077093.svg" alt="">
-            <img class="social" src="https://image.flaticon.com/icons/svg/1384/1384046.svg" alt="">
           </div>
-          </div>
-        </p>
+        </div>
       </div>
-    
-  </div>
-</div>
-</div>
+    </div>
+
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-0">News and Feed</h2>
+          <p class="text-muted">View all important updates.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-12.jpg"
+              alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Webinar Topic - Energy Audit & Its
+                Importance</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-11.jpg"
+              alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Webinar Topic - IOT Applications for
+                Engineers</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="http://siddhartha.co.in/blog/wp-content/uploads/2020/05/Webinar-10.jpg"
+              alt="Card image">
+            <div class="card-body">
+              <p class="card-text">Webinar Topic - Permanent magnet synchronous motor and its control.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mb-5 mt-5">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="mb-0">Photo & Video gallery</h2>
+          <p class="text-muted">Click on image for more details. (Careful with image sizes and resolutions.)</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 col-md-3 mb-4">
+          <a href="http://siddhartha.co.in/international-yoga-day/"><img
+              src="http://siddhartha.co.in/wp-content/uploads/2019/06/1AA.jpg" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-12 col-md-3 mb-4">
+          <a href="http://siddhartha.co.in/annual-day-2k19/"><img
+              src="http://siddhartha.co.in/wp-content/uploads/2019/05/11.jpg" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-12 col-md-3 mb-4">
+          <a href="http://siddhartha.co.in/centre-of-human-excellence/"><img
+              src="http://siddhartha.co.in/wp-content/uploads/2019/05/che8.jpg" class="img-fluid"></a>
+        </div>
+        <div class="col-sm-12 col-md-3 mb-4">
+          <a href="http://siddhartha.co.in/icraet-2019/"><img
+              src="http://siddhartha.co.in/wp-content/uploads/2019/06/int3.jpg" class="img-fluid"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2>Student Testimonals</h2>
+          <p class="text-muted">Careful with image sizes and resolutions.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4 mb-4">
+          <img class="rounded-circle mb-4" src="http://siddhartha.co.in/wp-content/uploads/2019/09/Mr.-A.-Sandeep.jpg"
+            alt="img">
+
+          <h4>Mr. A. Sandeep - IV-MECH</h4>
+          <p>The biggest thing for every Engineering student is to get an opportunity to start their career with a
+            reputed organization and a good package</p>
+
+          <p>I was lucky to get placed with.
+            <strong>“S.Fortunes.”</strong></p>
+        </div>
+
+        <div class="col-sm-12 col-md-4 mb-4">
+          <img class="rounded-circle" src="http://siddhartha.co.in/wp-content/uploads/2019/09/shivani.jpg" alt="image">
+
+          <h4>Ms. Shivani - IV-CIVIL</h4>
+          <p>I am very thankful to the faculties of MCA Departments, as they are very much supportive, helpful and
+            the Placement
+            Cell which is also doing a great job by arranging excellent placements of MNCs.</p>
+
+          <p>Placed in <strong>GENPACT</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12">
+          <h2>Contact</h2>
+          <p class="text-muted">And follow us on social networks.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-4">
+          <div>
+            <p class="mb-0">
+              <img src="https://image.flaticon.com/icons/svg/566/566030.svg" alt="" width="16">
+              040-29706523 / 24, 9908535188
+            </p>
+            <p>
+              <img class="img" src="https://image.flaticon.com/icons/svg/565/565328.svg" alt="" width="16">
+              principal@siddhartha.co.in
+            </p>
+          </div>
+          <div class="mt-2">
+            <img class="img" src="https://image.flaticon.com/icons/svg/565/565586.svg" alt="" width="16">
+            <address>
+              Narapally, Korremula Road,<br>
+              Ghatkesar Mandal Medchal, <br> Malkajgiri Dist, Hyderabad,
+              Telangana. <br> 501301.
+            </address>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-8">
+          <div class="text-center">
+            <img width="32" class="m-3" src="https://image.flaticon.com/icons/svg/1051/1051309.svg" alt="">
+            <img width="32" class="m-3" src="https://image.flaticon.com/icons/svg/733/733635.svg" alt="">
+            <img width="32" class="m-3" src="https://image.flaticon.com/icons/svg/1384/1384028.svg" alt="">
+            <img width="32" class="m-3" src="https://image.flaticon.com/icons/svg/1077/1077093.svg" alt="">
+            <img width="32" class="m-3" src="https://image.flaticon.com/icons/svg/1384/1384046.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
   </body>
+
 </html>
